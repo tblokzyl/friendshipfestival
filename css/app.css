@@ -1,3 +1,85 @@
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2018 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      InkyType
+ * License URL: https://www.fontspring.com/licenses/inky-type/webfont
+ *
+ *
+ */
+
+
+@font-face {
+    font-family: 'riffic-bold';
+    src: url('../fonts/riffic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/riffic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2{
+  font-family: 'riffic-bold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 52px;
+}
+
+body > div.hero-full-screen > div.row > div > h1{margin-bottom: 0px;}
+body > div.hero-full-screen > div.row > div > h2{margin-bottom: 15px;}
+body > div.hero-full-screen > div.row > div > p{margin-bottom: 30px;}
+
+h2{
+  font-size: 42px;
+}
+
+p{font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.primary{
+  color: #EB5870;
+}
+
+.secondary{
+  color: #BC4079;
+}
+
+.bodycopy{
+  color: #323C47;
+}
+
+.row{
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.center-row{
+  max-width: 1000px;
+  width: 1000px;
+}
+
+.head-button{font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  color: #EB5870}
+
+/*////////////////// HOME HEADER /////////////////*/
 
 .hero-full-screen {
   height: 100vh;
@@ -17,11 +99,14 @@
 .hero-full-screen .middle-content-section {
   text-align: left;
   color: #fefefe;
+  margin-top: -60px;
 }
 
 .hero-full-screen .top-content-section {
-  width: 1400px;
+  width: 1550px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hero-full-screen .bottom-content-section {
@@ -59,4 +144,48 @@
   color: #fefefe;
   font-weight: bold;
 }
+
+/*////////////////// HOVER UNDERLINE /////////////////*/
+
+.hover-underline-menu {
+  width: 100%;
+}
+
+.hover-underline-menu .menu {
+  background-color: #2C3840;
+}
+
+body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > li{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hover-underline-menu .menu a {
+  color: #fefefe;
+  padding-top: 2.1rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-bottom: 1rem;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+  position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 0.1rem);
+  border-bottom: 0.125rem solid #fefefe;
+  left: 50%;
+  right: 50%;
+  transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+
 
