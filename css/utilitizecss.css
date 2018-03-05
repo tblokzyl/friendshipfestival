@@ -31,20 +31,6 @@
 .hide { display: none !important; }
 .clear-both { clear: both; }
 .no-clipping { position: absolute; height: 0; opacity:0; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; pointer-events:none; }
-.wide-columns{
-  float: left;
-  padding-right: 2.8125rem;
-  padding-left: 2.8125rem; 
-}
-.aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.aligner-item {
-  max-width: 50%;
-}
 .m-0 { margin:0 !important; }
 .m-5 { margin:5px !important; }
 .m-10 { margin:10px !important; }
@@ -177,7 +163,6 @@
 .truncate-30vw { width:30vw; }
 .truncate-50vw { width:50vw; }
 .width-250 { width:250px; }
-.width-400 { width:400px; }
 .width-15vw { width:15vw; }
 .width-20vw { width:20vw; }
 .width-30vw { width:30vw; }
