@@ -32,9 +32,6 @@
     font-style: normal;
 }
 
-/* Small only */
-@media screen and (max-width: 39.9375em) {
-
 /*////////////////// TYPEOGRAPHY /////////////////*/
 
 body{font-family: 'Work Sans', sans-serif;
@@ -333,13 +330,12 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 .ecommerce-footer-links .more-categories {
   margin-top: 2rem;
 }
-}
 
 /* Medium and up */
 @media screen and (min-width: 40em) {}
 
 /* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+@media screen and (min-width: 64em) {
 
 /*////////////////// TYPEOGRAPHY /////////////////*/
 
@@ -431,6 +427,13 @@ img{border-radius: 4px;}
   padding-left: 2.8125rem; 
 }
 
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: block;
+}
 
 /*////////////////// BUTTONS /////////////////*/
 
