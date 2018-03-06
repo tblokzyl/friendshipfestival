@@ -329,6 +329,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 .ecommerce-footer-links .menu > li > a {
   line-height: 1.4em;
   padding: 5px;
+  padding-left: 0px;
 }
 
 .ecommerce-footer-paragraph {
@@ -337,7 +338,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .ecommerce-footer-links a {
   color: #323C47;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   transition: all 0.5s ease;
 }
@@ -355,7 +356,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .curtain-menu {
   z-index: 2;
-  position: absolute;
+  position: fixed;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +379,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   z-index: 3;
@@ -501,6 +502,10 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
           flex: 0 0 0%;
 }
 
+.curtain-menu-open{
+	position: fixed;
+}
+
 .curtain-menu-open .curtain-menu-wrapper {
   -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
@@ -621,6 +626,17 @@ p{font-family: 'Work Sans', sans-serif;
 
 .logo-width{
   max-width: 130px;
+}
+
+/*////////////////// ROW /////////////////*/
+
+.side-padding{
+  padding-left:70px;
+  padding-right:70px;
+}
+
+.hero-full-screen .middle-content-section{
+	padding-left:70px;
 }
 
 /*////////////////// HOME HEADER /////////////////*/
@@ -769,6 +785,11 @@ img{border-radius: 4px;}
 
 .margin-right-desktop{
   margin-right: 80px;
+}
+
+.side-padding{
+  padding-left:40px;
+  padding-right:40px;
 }
 
 /*////////////////// BUTTONS /////////////////*/
