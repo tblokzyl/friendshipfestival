@@ -39,6 +39,10 @@ body{font-family: 'Work Sans', sans-serif;
   font-weight: normal;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3{
   font-family: 'riffic-bold';
   font-weight: normal;
@@ -89,6 +93,15 @@ img{border-radius: 4px;}
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size:cover;
+}
+
+.logo-width{
+  max-width: 100px;
+}
+
+img.logo-width{
+  display: block;
+  margin: 0 auto;
 }
 
 /*////////////////// COLOUR /////////////////*/
@@ -603,6 +616,12 @@ p{font-family: 'Work Sans', sans-serif;
 }
 
 .rwd-break{display: block;}
+
+/*////////////////// IMAGES /////////////////*/
+
+.logo-width{
+  max-width: 130px;
+}
 
 /*////////////////// HOME HEADER /////////////////*/
 
