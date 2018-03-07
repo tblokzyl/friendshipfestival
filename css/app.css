@@ -514,7 +514,33 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   pointer-events: all;
 }
 
-/*////////////////// MENU ICON /////////////////*/
+/*////////////////// FILTER /////////////////*/
+
+
+.filter-simple .button-group {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+  background-color: #1779ba;
+  color: #fefefe;
+}
+
+.button-group.round :first-child {
+  border-radius: 4px;
+}
+
+.button-group.round :last-child {
+  border-radius: 4px;
+}
+
+.column-block {
+  margin-bottom: 30px;
+}
+
+
 
 /*
 
