@@ -544,17 +544,20 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
-  background-color: #1779ba;
-  color: #fff;
+  background-color: transparent;
+  color: #BC4079;
+  border-color: #BC4079;
 }
 
 .button-group.round :first-child {
   border-radius: 4px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .button-group.round :last-child {
   border-radius: 4px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -564,6 +567,15 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .column-block {
   margin-bottom: 30px;
+}
+
+.button.hollow:hover, .button.hollow:focus{
+  border-color: #BC4079;
+}
+
+.button.hollow{
+  border-color: #F4D9E3;
+  color: #BC4079;
 }
 
 
