@@ -95,6 +95,13 @@ img{border-radius: 4px;}
     background-size:cover;
 }
 
+.vendor-bg {
+    background-image: url("../images/assets-06.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size:cover;
+}
+
 .logo-width{
   max-width: 100px;
 }
@@ -956,6 +963,15 @@ img{border-radius: 4px;}
 
 .top-bar-right{
   display: block;
+}
+
+.top-bar{
+  padding-top: 20px;
+}
+
+nav > ul > li{
+  padding-right:1rem;
+  padding-left:1rem;
 }
 
 
