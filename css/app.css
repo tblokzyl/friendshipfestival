@@ -174,14 +174,6 @@ img.logo-width{
 
 .width-400 { max-width:400px; }
 
-.header-row .top-content-section {
-  max-width: 1550px;
-  width: 100vw;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 /*////////////////// BUTTONS /////////////////*/
 
 .button{
@@ -208,10 +200,6 @@ img.logo-width{
   color: #FFF;
 }
 
-.button.hollow{
-  border: 2px solid;
-}
-
 /*////////////////// HOME HEADER /////////////////*/
 
 .hero-full-screen {
@@ -231,7 +219,7 @@ img.logo-width{
 
 .hero-full-screen .middle-content-section {
   text-align: left;
-  color: #fff;
+  color: #fefefe;
   padding-left: 40px;
   padding-right: 40px;
   margin-top: -20vh;
@@ -252,7 +240,7 @@ img.logo-width{
 .hero-full-screen .bottom-content-section svg {
   height: 3.75rem;
   width: 3.75rem;
-  fill: #fff;
+  fill: #fefefe;
 }
 
 .hero-full-screen .top-bar {
@@ -265,7 +253,7 @@ img.logo-width{
 }
 
 .hero-full-screen .top-bar .menu-text {
-  color: #fff;
+  color: #fefefe;
 }
 
 .hero-full-screen .top-bar .menu li {
@@ -278,12 +266,8 @@ img.logo-width{
 }
 
 .hero-full-screen .top-bar .menu a {
-  color: #fff;
+  color: #fefefe;
   font-weight: bold;
-}
-
-.hover-underline-menu .menu .primary a {
-  color: #EB5870;
 }
 
 .top-bar-right{
@@ -297,7 +281,7 @@ img.logo-width{
 }
 
 .hover-underline-menu .menu {
-  background-color: #fff;
+  background-color: #2C3840;
 }
 
 body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > li{
@@ -305,12 +289,8 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   padding-right: 1rem;
 }
 
-.top-bar, .top-bar ul{
-  background-color: #fff;
-}
-
 .hover-underline-menu .menu a {
-  color: #fff;
+  color: #fefefe;
   padding-top: 2.1rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
@@ -325,7 +305,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   content: "";
   position: absolute;
   top: calc(100% - 0.1rem);
-  border-bottom: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fefefe;
   left: 50%;
   right: 50%;
   transition: all 0.5s ease;
@@ -446,7 +426,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .curtain-menu-wrapper .curtain-menu-list li a {
-  color: #fff;
+  color: #fefefe;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -516,7 +496,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .curtain-menu-button-toggle:hover div {
-  background: #fff;
+  background: #fefefe;
 }
 
 .curtain-menu-button-toggle:active {
@@ -551,9 +531,14 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+<<<<<<< HEAD
+  background-color: #1779ba;
+  color: #fefefe;
+=======
   background-color: transparent;
   color: #BC4079;
   border-color: #BC4079;
+>>>>>>> 2160d7c05766a31fb587abb0b8f37cb7ebfb057e
 }
 
 .button-group.round :first-child {
@@ -562,10 +547,13 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .button-group.round :last-child {
   border-radius: 4px;
+<<<<<<< HEAD
+=======
 }
 
 .button-group .button{
   margin-right: 15px;
+>>>>>>> 2160d7c05766a31fb587abb0b8f37cb7ebfb057e
 }
 
 .column-block {
@@ -861,10 +849,6 @@ img{border-radius: 4px;}
   padding-right:40px;
 }
 
-.middle-row-padding {
-  padding-left: 90px;
-  padding-right: 90px;}
-
 /*////////////////// BUTTONS /////////////////*/
 
 .button{
@@ -893,7 +877,6 @@ img{border-radius: 4px;}
 
 /*////////////////// HOME HEADER /////////////////*/
 
-
 .hero-full-screen {
   height: 100vh;
   display: -webkit-flex;
@@ -911,7 +894,7 @@ img{border-radius: 4px;}
 
 .hero-full-screen .middle-content-section {
   text-align: left;
-  color: #fff;
+  color: #fefefe;
   margin-top: -7vh;
   padding:0;
 }
@@ -926,13 +909,12 @@ img{border-radius: 4px;}
 
 .hero-full-screen .bottom-content-section {
   padding: 1rem;
-
 }
 
 .hero-full-screen .bottom-content-section svg {
   height: 3.75rem;
   width: 3.75rem;
-  fill: #fff;
+  fill: #fefefe;
 }
 
 .hero-full-screen .top-bar {
@@ -944,7 +926,7 @@ img{border-radius: 4px;}
 }
 
 .hero-full-screen .top-bar .menu-text {
-  color: #fff;
+  color: #fefefe;
 }
 
 .hero-full-screen .top-bar .menu li {
@@ -957,7 +939,7 @@ img{border-radius: 4px;}
 }
 
 .hero-full-screen .top-bar .menu a {
-  color: #fff;
+  color: #fefefe;
   font-weight: bold;
 }
 
@@ -977,16 +959,12 @@ nav > ul > li{
 
 /*////////////////// HOVER UNDERLINE /////////////////*/
 
-.hover-underline-menu .menu .underline-from-center,.hover-underline-menu-primary .menu .underline-from-center{
-  font-weight: 600;
-}
-
-.hover-underline-menu, .hover-underline-menu-primary {
+.hover-underline-menu {
   width: 100%;
 }
 
-.hover-underline-menu .menu , .hover-underline-menu-primary .menu {
-  background-color: #fff;
+.hover-underline-menu .menu {
+  background-color: #2C3840;
 }
 
 body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > li{
@@ -994,19 +972,15 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   padding-right: 1rem;
 }
 
-.hover-underline-menu .menu a , .hover-underline-menu-primary .menu a {
-  color: #eb5870;
+.hover-underline-menu .menu a {
+  color: #fefefe;
   padding-top: 2.1rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
   padding-bottom: 1rem;
 }
 
-.hover-underline-menu .menu .primary a, .hover-underline-menu-primary .menu .primary a {
-  color: #EB5870;
-}
-
-.hover-underline-menu .menu .underline-from-center, .hover-underline-menu-primary .menu .underline-from-center {
+.hover-underline-menu .menu .underline-from-center {
   position: relative;
 }
 
@@ -1014,24 +988,13 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   content: "";
   position: absolute;
   top: calc(100% - 0.1rem);
-  border-bottom: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fefefe;
   left: 50%;
   right: 50%;
   transition: all 0.5s ease;
 }
 
-.hover-underline-menu-primary .menu .underline-from-center::after {
-  content: "";
-  position: absolute;
-  top: calc(100% - 0.1rem);
-  border-bottom: 0.125rem solid #EB5870;
-  left: 50%;
-  right: 50%;
-  transition: all 0.5s ease;
-}
-
-
-.hover-underline-menu .menu .underline-from-center:hover::after, .hover-underline-menu-primary .menu .underline-from-center:hover::after {
+.hover-underline-menu .menu .underline-from-center:hover::after {
   left: 0;
   right: 0;
   transition: all 0.5s ease;
