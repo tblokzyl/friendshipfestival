@@ -25,16 +25,20 @@ $('.filter-simple-button').click(function () {
   $(this).addClass('is-active');
 });
 
-
 var wrapperMenu = document.querySelector('.wrapper-menu');
 
 wrapperMenu.addEventListener('click', function(){
   wrapperMenu.classList.toggle('open');  
 })
 
-wrapperMenu.addEventListener('click', function(){
-  wrapperMenu.classList.toggle('textfast');  
-})
+function myFunction() {
+   var element = document.getElementById("menu");
+   element.classList.toggle("clicked");
+   var element = document.getElementById("menu1");
+   element.classList.toggle("clicked");
+   var element = document.getElementById("menu2");
+   element.classList.toggle("clicked");
+}
 
 
 

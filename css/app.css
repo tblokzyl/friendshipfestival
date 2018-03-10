@@ -83,6 +83,7 @@ body > div:nth-child(7) > div:nth-child(2) > div > div:nth-child(3) > a > h1, bo
 }
 
 .rwd-break{display: none;}
+.mobile-break{display: block;}
 
 /*////////////////// IMAGE /////////////////*/
 
@@ -96,7 +97,7 @@ img{border-radius: 4px;}
 }
 
 .vendor-bg {
-    background-image: url("../images/assets-06.jpg");
+    background-image: url("../images/assets-07.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:cover;
@@ -119,12 +120,32 @@ img.logo-width{
   color: #EB5870;
 }
 
+.primarybg{
+  background-color: #EB5870;
+}
+
 .secondary{
   color: #BC4079;
 }
 
+.secondarybg{
+  background-color: #BC4079;
+}
+
 .white{
-  color: white;
+  color: white ;
+}
+
+.whitebg{
+  background-color: white;
+}
+
+body > div.wrapper-menu.mobile > .line-menu{
+  background-color: #EB5870;
+}
+
+.clicked {
+  background-color: white !important;
 }
 
 /*////////////////// ROW /////////////////*/
@@ -260,7 +281,6 @@ img.logo-width{
 
 .hero-full-screen .top-bar {
   background: transparent;
-  padding-top: 20px;
 }
 
 .hero-full-screen .top-bar .menu {
@@ -288,6 +308,12 @@ img.logo-width{
 .top-bar-right{
   display: none;
 }
+
+.top-bar{
+    padding-top: 20px;
+}
+
+
 
 /*////////////////// HOVER UNDERLINE /////////////////*/
 
@@ -417,6 +443,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+  top: 0;
   pointer-events: none;
 }
 
@@ -567,6 +594,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 /*////////////////// FILTER /////////////////*/
 
+.button-group{display: block;}
 
 .filter-simple .button-group {
   -webkit-justify-content: center;
@@ -594,12 +622,16 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .button-group.round :last-child {
   border-radius: 4px;
+}
 
+.button-group.round{
+  text-align: center;
 }
 
 .button-group .button{
   margin-right: 15px;
   border:2px solid;
+  margin-bottom: 20px;
 }
 
 .column-block {
@@ -740,6 +772,17 @@ p{font-family: 'Work Sans', sans-serif;
 
 .hero-full-screen .middle-content-section{
 	padding-left:70px;
+}
+
+.mobile-break{display: none;}
+
+.vendor-bg {
+    background-image: url("../images/assets-06.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    height: 400px;
+    margin-top: 60px;
 }
 
 /*////////////////// HOME HEADER /////////////////*/
