@@ -197,6 +197,11 @@ body > div.wrapper-menu.mobile > .line-menu{
 
 .width-400 { max-width:400px; }
 
+.filterpadding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /*////////////////// BUTTONS /////////////////*/
 
 .button{
@@ -784,6 +789,12 @@ p{font-family: 'Work Sans', sans-serif;
     height: 400px;
     margin-top: 60px;
 }
+
+.filterpadding{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
 
 /*////////////////// HOME HEADER /////////////////*/
 
