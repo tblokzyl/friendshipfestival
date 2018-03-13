@@ -106,7 +106,7 @@ img{border-radius: 4px;}
 }
 
 .activities-bg {
-    background-image: url("../images/assets-09.jpg");
+    background-image: url("../images/assets-09small.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:cover;
@@ -197,7 +197,7 @@ body > div.wrapper-menu.mobile > .line-menu{
 }
 
 .mobile{
-  display: block !important;
+  display: block;
 }
 
 .desktop{
@@ -746,6 +746,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
+/*//////////////////////////////////////////////////////////////////// 1200px and up ////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width: 1200px) {
+
+.activities-bg {
+    background-image: url("../images/assets-09small.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:cover;
+    position: relative;
+    height: 500px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////// Medium and up ////////////////////////////////////////////////////////////////////*/
@@ -896,6 +908,15 @@ img{border-radius: 4px;}
     background-size:cover;
 }
 
+.activities-bg {
+    background-image: url("../images/assets-09.jpg");
+    background-repeat: no-repeat;
+    background-position: center; top;
+    background-size:cover;
+    position: relative;
+    height: 650px;
+}
+
 /*////////////////// COLOUR /////////////////*/
 
 .primary{
@@ -934,7 +955,7 @@ img{border-radius: 4px;}
 }
 
 .mobile{
-  display: none !important;
+  display: none;
 }
 
 .desktop{
