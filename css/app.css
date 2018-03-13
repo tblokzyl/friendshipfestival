@@ -288,8 +288,8 @@ body > div.wrapper-menu.mobile > .line-menu{
   max-width: 1550px;
  width: 100vw;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .top-bar, .top-bar ul{
@@ -657,9 +657,10 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .button-group .button{
-  margin-right: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
   border:2px solid;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .column-block {
