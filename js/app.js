@@ -39,7 +39,3 @@ function myFunction() {
    var element = document.getElementById("menu2");
    element.classList.toggle("clicked");
 }
-
-
-
-
