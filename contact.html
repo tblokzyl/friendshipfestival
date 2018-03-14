@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vendors & Shops | Friendship Festival</title>
+  <title>Contact Us | Friendship Festival</title>
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/utilitizecss.css">
   <link rel="stylesheet" href="css/app.css">
@@ -31,15 +31,16 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="wrapper-menu mobile" data-curtain-menu-button>
-      <div class="line-menu half start"></div>
-      <div class="line-menu"></div>
-      <div class="line-menu half end"></div>
+    <div class="wrapper-menu mobile" data-curtain-menu-button onclick="myFunction()" data-curtain-menu-button>
+      <div id="menu" class="line-menu half start primarybg"></div>
+      <div id="menu1" class="line-menu primarybg"></div>
+      <div id="menu2" class="line-menu half end primarybg"></div>
     </div>
 
-    <div class="row middle-row-padding">
-      <div id="contact-wrapper" class="center-row" style="margin:0 auto; text-align: center;">
+    <div id="middle-row-padding-alt" class="row middle-row-padding" style="display: table; max-width: 800px;">
+      <div id="contact-wrapper" class="center-row" style="margin:0 auto; text-align: center; display: table-cell; vertical-align: middle;">
         <h1 class="primary text-center m-bottom-40">Contact Us</h1>
         <div class="small-12 large-6 columns">
           <input class="contact-textbox" type="text" placeholder="Name" />
@@ -49,8 +50,118 @@
         </div>
         <div class="large-12 columns">
           <textarea class="contact-textbox" placeholder="Message"></textarea>
-            <button class="button contact-button secondary">Submit</button>
+            <button id="button-normal" class="button contact-button secondary m-bottom-40">Submit</button>
         </div>
+        <p class="small">Or just e-mail us at</p>
+        <h4 class="primary"><a href="mailto:inquiry@friendshipfestival.ca">inquiry@friendshipfestival.ca</a></h4>
+      </div>
+    </div>
+    <div style="background:url(images/assets-10.jpg); background-position: top center; background-size: cover; min-height: 45vh; width:100%; margin-top:-45vh;"></div>
+
+  <div class="social-bg">
+    <div class="row middle-row-padding center-row">
+      <div class="small-12 columns">
+        <h2 class="m-bottom-20 white primary text-center">Stay Up To Date</h2>
+        <p class="m-bottom-40 white text-center bodycopy">R.V.S.P. to our events on Facebook.<br class="rwd-break">
+        Stay updated and receive reminders!</p>
+        <div class="socialmedia">
+          <div class="small-4 columns">
+            <a href="https://twitter.com/info_festival?lang=en">
+              <h1 class="white socicon-twitter"></h1>
+            </a>
+          </div>
+          <div class="small-4 columns">
+            <a href="https://www.instagram.com/fort_erie_friendship_festival/">
+              <h1 class="white socicon-instagram"></h1>
+            </a>
+          </div>    
+          <div class="small-4 columns">
+            <a href="https://www.facebook.com/freeconcert/">
+              <h1 class="white socicon-facebook"></h1>
+            </a>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+      <div class="ecommerce-footer desktop p-top-80">
+    <div class="ecommerce-footer-links row">
+      <div class="small-12 medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Location</h3>
+        <ul class="menu vertical">
+          <p class="m-bottom-0 ecommerce-footer-paragraph">Mather Park,<br> 
+            Mather Cir, Fort Erie,<br>  
+          Ontario, L2A 1B1</p>
+        </ul>
+      </div>
+
+      <div class="small-12 medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Registration</h3>
+        <ul class="menu vertical">
+          <li><a href="#">Vendor Registration</a></li>
+          <li><a href="#">Volunteer Reistration</a></li>
+          <li><a href="#">Sponsor Registration</a></li>
+        </ul>
+      </div>
+
+      <div class="small-12 float-left medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Contact Us</h3>
+        <ul class="menu vertical">
+          <li><a href="#">Phone: 905-871-6454</a></li>
+          <li><a href="#">Fax: 905-871-1266</a></li>
+          <li><a href="#">inquiry@friendshipfestival.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="ecommerce-footer mobile p-top-80">
+    <div class="ecommerce-footer-links row">
+      <div class="small-12 medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Location</h3>
+        <ul class="menu vertical">
+          <p class="m-bottom-0 ecommerce-footer-paragraph">Mather Park,<br> 
+            Mather Cir, Fort Erie,<br>  
+          Ontario, L2A 1B1</p>
+        </ul>
+      </div>
+
+      <div class="small-12 medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Registration</h3>
+        <ul class="menu vertical">
+          <li><a href="#">Vendor Registration</a></li>
+          <li><a href="#">Volunteer Reistration</a></li>
+          <li><a href="#">Sponsor Registration</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ecommerce-footer-links row">
+      <div class="small-12 float-left medium-6 large-3 columns padding-bottom-footer side-padding">
+        <h3 class="secondary">Contact Us</h3>
+        <ul class="menu vertical">
+          <li><a href="#">Phone: 905-871-6454</a></li>
+          <li><a href="#">Fax: 905-871-1266</a></li>
+          <li><a href="#">inquiry@friendshipfestival.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <!-- the menu  -->
+    <div class="curtain-menu">
+      <div class="curtain"></div>
+      <div class="curtain"></div>
+      <div class="curtain"></div>
+      <div class="curtain-menu-wrapper">
+        <ul class="curtain-menu-list menu vertical">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Activities</a></li>
+          <li><a href="#">Concerts</a></li>
+          <li><a href="#">Vendors & Shops</a></li>
+          <li><a href="#">FAQ’s</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
       </div>
     </div>
 
