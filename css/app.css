@@ -130,11 +130,11 @@ img.logo-width{
 /*////////////////// COLOUR /////////////////*/
 
 .primary{
-  color: #EB5870;
+  color: #FF5A6F;
 }
 
 .primarybg{
-  background-color: #EB5870;
+  background-color: #FF5A6F;
 }
 
 .secondary{
@@ -158,7 +158,7 @@ img.logo-width{
 }
 
 body > div.wrapper-menu.mobile > .line-menu{
-  background-color: #EB5870;
+  background-color: #FF5A6F;
 }
 
 .clicked {
@@ -238,7 +238,7 @@ body > div.wrapper-menu.mobile > .line-menu{
   font-weight: 600;
   background-color: white;
   border: 2px solid white;
-  color: #EB5870}
+  color: #FF5A6F}
 
 
 .button.secondary:hover, .button.secondary:focus{
@@ -288,8 +288,8 @@ body > div.wrapper-menu.mobile > .line-menu{
   max-width: 1550px;
  width: 100vw;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .top-bar, .top-bar ul{
@@ -395,7 +395,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .hover-underline-menu-primary .menu a {
-  color: #EB5870;
+  color: #FF5A6F;
   padding-top: 2.1rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
@@ -421,7 +421,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   content: "";
   position: absolute;
   top: calc(100% - 0.1rem);
-  border-bottom: 0.125rem solid #EB5870;
+  border-bottom: 0.125rem solid #FF5A6F;
   left: 50%;
   right: 50%;
   transition: all 0.5s ease;
@@ -549,7 +549,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .curtain-menu-wrapper .curtain-menu-list li:hover a {
-  color: #EB5870;
+  color: #FF5A6F;
 }
 
 .curtain-menu-wrapper .curtain-menu-list li a {
@@ -585,7 +585,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .curtain-menu .curtain:nth-child(odd) {
-  background: #EB5870;
+  background: #FF5A6F;
 }
 
 .curtain-menu-button {
@@ -685,9 +685,10 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 
 .button-group .button{
-  margin-right: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
   border:2px solid;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .column-block {
@@ -979,7 +980,7 @@ img{border-radius: 4px;}
 /*////////////////// COLOUR /////////////////*/
 
 .primary{
-  color: #EB5870;
+  color: #FF5A6F;
 }
 
 .secondary{
@@ -1063,7 +1064,7 @@ img{border-radius: 4px;}
   font-weight: 600;
   background-color: white;
   border: 2px solid white;
-  color: #EB5870;
+  color: #FF5A6F;
 }
 
 
