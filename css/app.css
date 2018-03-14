@@ -341,6 +341,34 @@ body > div.wrapper-menu.mobile > .line-menu{
     padding-top: 20px;
 }
 
+#contact-wrapper {
+  max-width: 100%;
+  margin: 0 auto; 
+}
+
+.contact-textbox {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: #BC4079 solid 2px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+input[type="text"]:placeholder {
+  color:black;
+}
+
+.contact-button {
+  width:100%; 
+  padding: 22px; 
+  margin-top: -10px;
+}
+
+ textarea {
+  min-height: 150px;
+}
 
 
 /*////////////////// HOVER UNDERLINE /////////////////*/
@@ -830,6 +858,37 @@ p{font-family: 'Work Sans', sans-serif;
   padding-right: 1.2rem;
 }
 
+
+/*////////////////// CONTACT /////////////////*/
+
+#contact-wrapper {
+  max-width: 850px;
+  margin: 0 auto; 
+}
+
+.contact-textbox {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: #BC4079 solid 2px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+input[type="text"]:placeholder {
+  color:black;
+}
+
+.contact-button {
+  width:100%; 
+  padding: 22px; 
+  margin-top: -10px;
+}
+
+ textarea {
+  min-height: 150px;
+}
 
 /*////////////////// HOME HEADER /////////////////*/
 
