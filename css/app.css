@@ -37,6 +37,7 @@
 body{font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
+  background-color: #fff;
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 }
 
 h1, h2, h3{
-  font-family: 'riffic-bold';
+  font-family:'riffic-bold';
   font-weight: normal;
   font-style: normal;
   font-size: 42px;
@@ -94,6 +95,15 @@ img{border-radius: 4px;}
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size:cover;
+}
+
+.concert-bg {
+    background-image: url("../images/assets-13.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height: 400px;
+    margin: -200px;
 }
 
 .vendor-bg {
@@ -223,6 +233,10 @@ body > div.wrapper-menu.mobile > .line-menu{
   max-width: 100vw;
   width: 100vw;
   background-color: #F9F8FA;
+}
+
+.concert-padding-top{
+  padding-top: 170px;
 }
 
 /*////////////////// BUTTONS /////////////////*/
