@@ -264,6 +264,10 @@ body > div.wrapper-menu.mobile > .line-menu{
   padding-top: 0px;
 }
 
+.concert-color{
+	background-color: #F9F8FA;
+}
+
 /*////////////////// BUTTONS /////////////////*/
 
 .button{
@@ -990,6 +994,10 @@ p{font-family: 'Work Sans', sans-serif;
   padding:60px;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.concert-color{
+	background-color: white;
 }
 
 
