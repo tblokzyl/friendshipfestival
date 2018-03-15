@@ -37,6 +37,41 @@
   width: 100%;
 }
 
+.arrow {
+	float:left;
+	color: #FF5A6F;
+}
+
+div > div > div > div > a:hover{
+	color: #6b0b37;
+}
+
+body > section > div.row > div > div > div.arrow1:hover{
+	color:#821647;
+	border-color:#821647;
+	float:left;
+}
+
+.arrow-hover:hover > .arrow-1{
+	color: #821647;
+	border-color:#821647;
+	float:left;
+}
+
+.arrow-1 {
+	margin-top: 10px;
+	height: 6px; width: 6px;
+	border: 1px solid;
+	border-color: #BC4079;
+	border-width: 1px 1px 0 0;
+	margin-left: 5px;
+	-webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: inline-block;
+    float: left; 
+    opacity: .6;
+}
+
 
 /*////////////////// FONT IMPORTS /////////////////*/
 
@@ -190,6 +225,10 @@ img.logo-width{
 
 .bodycopy {
   color:#323C47;
+}
+
+.opacity {
+  opacity: 0.7;
 }
 
 body > div.wrapper-menu.mobile > .line-menu{
@@ -415,6 +454,7 @@ body > div.wrapper-menu.mobile > .line-menu{
 
 input[type="text"]::placeholder, textarea::placeholder {
   color:#323C47;
+  opacity: 0.7;
 }
 
 .contact-button {
@@ -437,15 +477,6 @@ input[type="text"]::placeholder, textarea::placeholder {
 
 .accordion-title, .accordion-content {
   border:none;
-  padding:1rem 0rem;
-}
-
-.accordion-content {
-  padding: 0rem 0rem 1rem
-}
-
-.accordion-title {
-
 }
 
 .accordion-title::before {
@@ -953,14 +984,6 @@ p{font-family: 'Work Sans', sans-serif;
 
 .rwd-break{display: block;}
 
-.list-item {
-  display: flex;
-  padding: 0.5em;
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 50%;
-}
-
 /*////////////////// IMAGES /////////////////*/
 
 .logo-width{
@@ -1048,10 +1071,6 @@ input[type="text"]:placeholder {
 
  textarea {
   min-height: 150px;
-}
-
-.accordion-content {
-  padding: 0rem 0rem 1rem
 }
 
 /*////////////////// HOME HEADER /////////////////*/
@@ -1423,5 +1442,16 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 }
 }
 
+
+/* 
+Copyright (c) 2017 by Sarah Carney (http://codepen.io/Sarah_C/pen/jWoEWb)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+
+
+/* -- ARROW 1      -- */
 
 
