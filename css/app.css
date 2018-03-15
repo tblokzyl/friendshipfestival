@@ -29,9 +29,9 @@
 .list-item {
   display: flex;
   padding: 0.5em;
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 50%;
+  padding-right: 40px;
+  padding-left: 40px;
+  width: 100%;
 }
 .list-content {
   width: 100%;
@@ -433,6 +433,15 @@ input[type="text"]::placeholder, textarea::placeholder {
 
 .accordion-title, .accordion-content {
   border:none;
+  padding:1rem 0rem;
+}
+
+.accordion-content {
+  padding: 0rem 0rem 1rem
+}
+
+.accordion-title {
+
 }
 
 .accordion-title::before {
@@ -920,6 +929,14 @@ p{font-family: 'Work Sans', sans-serif;
 
 .rwd-break{display: block;}
 
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 50%;
+}
+
 /*////////////////// IMAGES /////////////////*/
 
 .logo-width{
@@ -1003,6 +1020,10 @@ input[type="text"]:placeholder {
 
  textarea {
   min-height: 150px;
+}
+
+.accordion-content {
+  padding: 0rem 0rem 1rem
 }
 
 /*////////////////// HOME HEADER /////////////////*/
