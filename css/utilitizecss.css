@@ -196,3 +196,10 @@
 .animation-delay-20 { -webkit-animation-delay: 2s; -moz-animation-delay: 2s; -ms-animation-delay: 2s; animation-delay: 2s; }
 .animation-delay-30 { -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; animation-delay: 3s; }
 .animation-delay-40 { -webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 4s; animation-delay: 4s; }
+.table{
+	display: table; 
+	width: 100%;
+}
+.table-cell{
+	display: table-cell;
+}
