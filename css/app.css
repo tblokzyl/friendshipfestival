@@ -22,6 +22,12 @@
  *
  */
 
+ @media screen and (max-width:340px) {
+ 	.logo {
+ 		width:250px !important;
+ 	}
+ }
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -507,7 +513,12 @@ input[type="text"]::placeholder, textarea::placeholder {
       font-family: work sans;
       font-weight: 600;
     }
-}
+    .button-group > button {
+    	width: calc(50% - 14px);
+    	float: left;
+	}
+
+
 
 
 /*////////////////// HOVER UNDERLINE /////////////////*/
@@ -844,7 +855,7 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   border-color: #F4D9E3;
   color: #BC4079;
   font-weight: 600;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 
@@ -1002,6 +1013,11 @@ p{font-family: 'Work Sans', sans-serif;
     height: 420px;
     margin-top: -250px;
 }
+
+    .button-group > button {
+    	width: auto;
+    	float: none;
+	}
 
 /*////////////////// ROW /////////////////*/
 
