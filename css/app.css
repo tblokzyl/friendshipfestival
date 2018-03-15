@@ -29,9 +29,9 @@
 .list-item {
   display: flex;
   padding: 0.5em;
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 50%;
+  padding-right: 40px;
+  padding-left: 40px;
+  width: 100%;
 }
 .list-content {
   width: 100%;
@@ -98,7 +98,7 @@ body > div:nth-child(7) > div:nth-child(2) > div > div:nth-child(3) > a > h1, bo
 }
 
 .copyright-align{
-  text-align: left;
+  text-align: center;
 }
 
 .rwd-break{display: none;}
@@ -177,7 +177,7 @@ img.logo-width{
 }
 
 .white{
-  color: white ;
+  color: white !important;
 }
 
 .whitebg{
@@ -296,8 +296,8 @@ body > div.wrapper-menu.mobile > .line-menu{
 }
 
 .button-secondary{
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 19px !important;
+  padding-bottom: 19px !important;
   border-radius: 6px !important;
 }
 
@@ -773,6 +773,8 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
 
 .button-group.round{
   text-align: center;
+  padding-left: 40px;
+    padding-right: 40px;
 }
 
 .button-group .button{
@@ -878,10 +880,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     position: relative;
     height: 500px;
 }
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////// Medium and up ////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 40em) {
+
+  .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 50%;
+}
+.list-content {
+  width: 100%;
+}
+
 
 /*////////////////// TYPEOGRAPHY /////////////////*/
 
@@ -1365,10 +1385,13 @@ body > div.hero-full-screen > div.top-content-section > div > div > nav > ul > l
   margin-top: 2rem;
 }
 
+
+
 /*////////////////// CURTAIN MENU /////////////////*/
 
 .curtain-menu-button{display: none;}
 
+}
 }
 
 
