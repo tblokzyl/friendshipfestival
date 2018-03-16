@@ -24,9 +24,18 @@
 
  @media screen and (max-width:340px) {
  	.logo {
- 		width:250px !important;
+ 		width:225px !important;
  	}
+
+body > div.hero-full-screen > div.row > div{
+    margin-top: 0;
+  }
+  
+div.wrapper-menu.mobile{
+  width: 20px;
+  height: 20px;
  }
+}
 
 .list {
   display: flex;
