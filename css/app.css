@@ -322,6 +322,10 @@ body > div.wrapper-menu.mobile > .line-menu{
 	background-color: #F9F8FA;
 }
 
+.accordion-content{
+  background-color: white;
+}
+
 /*////////////////// BUTTONS /////////////////*/
 
 .button{
