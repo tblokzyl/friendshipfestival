@@ -2,6 +2,7 @@ $(document).foundation()
 
 
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
+$("#remove-underline").removeClass("underline-from-center");
 
 
 $('[data-curtain-menu-button]').click(function(){
