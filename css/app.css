@@ -307,8 +307,19 @@ body > div.hero-full-screen > div.curtain-menu > div.curtain-menu-wrapper > ul >
 }
 
 .socialmedia{
-  max-width: 220px;
+  text-align: center;
+  width:100%;
+}
+
+.socialmedia-container {
   margin: 0 auto;
+  display: block;
+}
+
+.socialmedia a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .middle-row-padding {
@@ -1285,11 +1296,6 @@ img{border-radius: 4px;}
 .center-row{
   max-width: 1000px;
   width: 100vw;
-}
-
-.socialmedia{
-  max-width: 220px;
-  margin: 0 auto;
 }
 
 .wide-columns{
